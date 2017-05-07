@@ -1,0 +1,31 @@
+package com.bitsofttech.biu;
+
+import android.support.annotation.Nullable;
+import android.support.v4.app.Fragment;
+import android.support.v7.app.AppCompatActivity;
+import android.os.Bundle;
+import android.view.LayoutInflater;
+import android.view.View;
+import android.view.ViewGroup;
+
+public class ResultFragment extends Fragment {
+    View view;
+
+    @Nullable
+    @Override
+    public View onCreateView(LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
+
+        View view = inflater.inflate(R.layout.activity_result_fragment,container,false);
+        this.view=view;
+        
+        init();
+        
+        
+        
+        return view;
+    }
+
+    private void init() {
+
+    }
+}

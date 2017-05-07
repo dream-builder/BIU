@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_splash_screen"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#41ab48"
+    android:paddingLeft="32dp"
+    android:paddingRight="32dp"
+    android:paddingTop="100dp"
+    tools:context="com.bitsofttech.biu.SplashScreen">
+
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:src="@drawable/splash_logo"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/logo"
+        android:layout_marginBottom="20dp"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/logo"
+        android:text="LOADING . . ."
+        android:textAlignment="center"
+        android:textSize="25sp"
+        android:textColor="#FFF"
+        android:id="@+id/loading"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Version: 1.0"
+        android:textColor="#FFF"
+        android:id="@+id/version"
+        android:layout_below="@id/loading"
+        android:layout_marginTop="65dp"
+        android:gravity="bottom"/>
+
+    <ImageView
+        android:layout_width="145dp"
+        android:layout_height="wrap_content"
+        android:src="@drawable/bitsofttech"
+        android:layout_below="@id/loading"
+        android:layout_marginTop="55dp"
+        android:layout_alignParentRight="true"/>
+
+</RelativeLayout>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="10dp"
+    android:paddingBottom="10dp">
+
+    <ImageView
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:id="@+id/eventIcon"
+        android:src="@drawable/event"
+        android:layout_marginRight="4dp"
+        />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/newsTitleTextView"
+        android:textSize="14sp"
+        android:text="Title"
+        android:paddingLeft="5dp"
+        android:paddingRight="10dp"
+        android:textColor="#000"
+        android:layout_toRightOf="@id/eventIcon"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/newsDateTextView"
+        android:layout_below="@id/newsTitleTextView"
+        android:textSize="10sp"
+        android:text="date"
+        android:paddingLeft="5dp"
+        android:paddingRight="8dp"
+        android:layout_toRightOf="@id/eventIcon"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/categoryTextView"
+        android:layout_below="@id/newsTitleTextView"
+        android:layout_toRightOf="@id/newsDateTextView"
+        android:text=""
+        android:textSize="10sp"
+        android:textColor="#d291fa"/>
+
+</RelativeLayout>

@@ -1,0 +1,46 @@
+ <style>
+   p, li{font-size:14px;
+   text-align:justify;
+   line-height:20px;
+   }
+
+   li{
+   margin-bottom:10px;
+   }
+ </style>
+<p>The Private University Act passed by the Parliament in 1992 and its amendment passed in 1998 empowered the Government and the University Grants Commission (UGC) for the establishment of Private Universities throughout the country. We established the Bangladesh Islami University (BIU), a private university with the proper approval from the Government of the People’s Republic of Bangladesh. Since its inception in 2006, the university has been working excellently and presently, it has become a modern, dynamic and innovative institution providing standard and high quality knowledge in every branch of education. The present campus of the University is housed in an eleven storied building located at 89/12, R. K. Mission Road, Maniknagar Bishwa Road, Dhaka-1203. Two buildings are constructed in BIU’s permanent campus at Green Model Town in Dhaka City.</p>
+<br>
+
+<strong>VISION</strong><br>
+<p>The University authority firmly aims at disseminating holistic and modern education through integrated learning and state-of-the-art training method. The authority strives to produce modern citizens and professionals equipped with self-confidence, versatility of skills and with ethical standards to meet the challenges of the contemporary legal and corporate world and to sow the seeds of economic, spiritual and cultural growth.</p>
+
+<br>
+<strong>MISSION</strong><br>
+<p>The mission of BIU is to impart knowledge for interweaving the two streams of education of our country-religious and modern, in the light of Islam. The Supreme reality, Allah the Almighty, who wants spiritual consciousness, has given freedom to human intellect and imagination. There are four sources of knowledge that are used to explore the basic concepts of a human being and his/her relationship with Allah and the rest of the universe.
+These sources are: > Revelation > Intelligence > Reason and >Consciousness. This philosophy serves as the basis of designing curriculum for BIU and helps to make it a “Centre of Excellence” by setting a new standard for the higher education in Bangladesh.</p>
+
+<br>
+<strong>GOAL</strong><br>
+
+<p>The Goals of BIU are as follows:<br><br>
+    <ul>
+        <li> To inculcate the young men and women with the universal principles of Towhid (the Unity of Allah); and</li>
+        <li> To make practical steps for the moral, intellectual, economic, social, scientific and technological development in accordance with the principles of Islam and to take appropriate steps in finding out practical solutions of the problems of the new millennium.</li>
+    </ul>
+</p>
+<br>
+<strong>GOVERNANCE</strong><br>
+<p>The governance of the university is run by several bodies such as: </p>
+
+<p>
+    <ol type="a">
+        <li> the Board of Trustees</li>
+        <li> the Syndicate </li>
+        <li>the Academic Council </li>
+        <li>the Finance Committee,</li>
+        <li>the Selection Committee</li>
+        <li>Disciplinary Committee and some other committees of the university.</li>
+    </ol>
+</p>
+
+<p>The Honorable President of the People’s Republic of Bangladesh is the Chancellor of the University. The Vice-Chancellor, Treasurer, Registrar, Deans of faculties and Chairmen of the departments are the executives and academics. The Academic Council headed by the Vice-Chancellor includes the Registrar and all Deans, Chairmen of the departments and nominated professors of the university.</p>

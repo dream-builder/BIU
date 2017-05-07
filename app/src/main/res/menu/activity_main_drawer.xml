@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_about"
+            android:icon="@drawable/ic_chevron_right_black_24dp"
+            android:title="About BIU" />
+        <item
+            android:id="@+id/nav_chairman"
+            android:icon="@drawable/ic_chevron_right_black_24dp"
+            android:title="Message of the Chairman" />
+        <item
+            android:id="@+id/nav_vc"
+            android:icon="@drawable/ic_chevron_right_black_24dp"
+            android:title="Message of VC" />
+        <item
+            android:id="@+id/nav_trustee"
+            android:icon="@drawable/ic_chevron_right_black_24dp"
+            android:title="Board of Turstees" />
+
+        <item
+            android:id="@+id/nav_syndicate"
+            android:icon="@drawable/ic_chevron_right_black_24dp"
+            android:title="Syndicate"
+        />
+
+        <item
+            android:id="@+id/nav_academic_council"
+            android:icon="@drawable/ic_chevron_right_black_24dp"
+            android:title="Academic Council"
+            />
+    </group>
+
+    <item android:title="Academic">
+        <menu>
+            <item
+                android:id="@+id/nav_academic_regulation"
+                android:icon="@drawable/ic_chevron_right_black_24dp"
+                android:title="Academic Regulations" />
+
+            <item
+                android:id="@+id/nav_academic_calendar"
+                android:icon="@drawable/ic_chevron_right_black_24dp"
+                android:title="Academic Calendar" />
+
+            <item
+                android:id="@+id/nav_academic_grading_system"
+                android:icon="@drawable/ic_chevron_right_black_24dp"
+                android:title="Grading System" />
+        </menu>
+    </item>
+
+    <item android:title="Admission">
+        <menu>
+            <item
+                android:id="@+id/nav_apply"
+                android:icon="@drawable/ic_chevron_right_black_24dp"
+                android:title="How to Apply" />
+            <item
+                android:id="@+id/nav_prerequiresities"
+                android:icon="@drawable/ic_chevron_right_black_24dp"
+                android:title="Prerequisites" />
+
+            <item
+                android:id="@+id/nav_scholarship"
+                android:icon="@drawable/ic_chevron_right_black_24dp"
+                android:title="Scholarships" />
+
+            <item
+                android:id="@+id/nav_admission_office"
+                android:icon="@drawable/ic_chevron_right_black_24dp"
+                android:title="Admission Office" />
+        </menu>
+    </item>
+
+
+
+    <item
+        android:id="@+id/nav_contact"
+        android:icon="@drawable/ic_chevron_right_black_24dp"
+        android:title="Contact" />
+
+
+    <item android:title="Developer">
+        <menu>
+            <item
+                android:id="@+id/developer"
+                android:title="BiT Software Technologies" />
+
+        </menu>
+    </item>
+</menu>

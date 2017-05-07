@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_biu_info"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.bitsofttech.biu.biu_info">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/thumbImageView"
+        android:scaleType="centerCrop"
+        android:src="@drawable/biu_building"
+        android:layout_centerHorizontal="true"
+
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="About BIU "
+        android:id="@+id/pageTitleTextView"
+        android:textAlignment="center"
+        android:textSize="25sp"
+        android:textColor="@color/colorPrimaryDark"
+        android:layout_below="@id/thumbImageView"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:paddingTop="25dp"
+        android:paddingBottom="25dp"
+        android:background="#FFF"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/detailTextView"
+        android:layout_below="@id/pageTitleTextView"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:layout_marginBottom="64dp"
+        android:visibility="gone"
+
+        android:text=""/>
+
+        <WebView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingLeft="16dp"
+            android:paddingRight="16dp"
+            android:id="@+id/webView"
+            android:layout_below="@+id/pageTitleTextView"
+            android:paddingBottom="32dp"
+            android:background="#FFF"
+
+            >
+
+
+        </WebView>
+    </RelativeLayout>
+</ScrollView>
